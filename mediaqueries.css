@@ -1,0 +1,236 @@
+@media screen and (max-width: 1040px) {
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul {
+    margin-right: 0px;
+    justify-content: center;
+    padding: 3px;
+  }
+
+  .logo {
+    padding: 10px;
+  }
+
+  nav ul span {
+    font-size: 0px;
+  }
+
+  ul .li-5 {
+    margin-right: 0px;
+  }
+
+  .logo img {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  nav {
+    z-index: 9;
+    flex-direction: row;
+    background-color: transparent;
+  }
+
+  header hr {
+    display: none;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 0;
+    right: -310px;
+    height: 90vh;
+    width: 300px;
+    background-color: red;
+    text-align: left;
+    z-index: 11;
+    flex-direction: column;
+  }
+  .logo {
+    margin-top: 10px;
+    margin-left: 8px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header-content h1 {
+    font-size: 2.6rem;
+  }
+  header p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header-content {
+    width: 89%;
+  }
+  .header-content h1 {
+    font-size: 2.2rem;
+  }
+}
+
+/* 0------------end----of----header---------- */
+@media screen and (max-width: 800px) {
+  .define p {
+    padding-left: 185px;
+    padding-right: 44px;
+  }
+
+  @media screen and (max-width: 650px) {
+  }
+  .define h3 {
+    margin-left: 27px;
+  }
+  .define p {
+    padding-left: 147px;
+    padding-right: 16px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .define h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .define h1 {
+    font-size: 2.3rem;
+  }
+  .define h3 {
+    margin-left: 5px;
+  }
+  .define p {
+    padding-left: 122px;
+  }
+}
+
+/* -----------end of define secton---------- */
+@media screen and (max-width: 550px) {
+  .h1-tag {
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .h1-tag {
+    font-size: 30px;
+  }
+}
+
+/* -------for paragraph-------- */
+
+@media screen and (max-width: 1190px) {
+  .for-media {
+    height: 220px;
+    overflow-x: scroll;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .for-media {
+    height: 200px;
+  }
+}
+/* ---------header h2-------- */
+@media screen and (max-width: 810px) {
+  .header-h2 {
+    font-size: 40px;
+    padding: 0px 20px;
+  }
+}
+@media screen and (max-width: 564px) {
+  .header-h2 {
+    font-size: 37px;
+    padding: 0px 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header-h2 {
+    font-size: 30px;
+    padding: 0px 20px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .header-h2 {
+    font-size: 28px;
+    padding: 0px 20px;
+  }
+}
+
+/* ------------DESERT SECTION---------- */
+@media screen and (max-width: 900px) {
+  .desert-section {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 0px
+  }
+  .desert-img {
+    width: 70%;
+  }
+  .desert-define {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .desert-img {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .desert-img {
+    width: 83%;
+  }
+  .paragraph{
+    width: 95%;
+  }
+  .desert-section{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .layer h2{
+    font-size: 24px;
+  }
+}
+}
+@media screen and (max-width: 450px) {
+  .desert-img {
+    width: 90%;
+  }
+  .layer h2{
+    font-size: 21px;
+  }
+}
+/* ---------for desert columns------- */
+/*1- for Image */
+@media screen and (max-width: 1050px) {
+  .desert-img img {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .desert-img img {
+    width: 100%;
+  }
+}
+
+/*2- for Paragraph */
+
+@media screen and (max-width: 1214px) {
+  .paragraph {
+    height: 268px;
+  }
+}
+
+@media screen and (max-width: 1136px) {
+  .paragraph {
+    height: 245px;
+  }
+}
+
