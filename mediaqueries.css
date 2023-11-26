@@ -169,7 +169,10 @@
     padding-top: 10px;
     padding-bottom: 0px
   }
-  .desert-img {
+  .desert-img-left {
+    width: 70%;
+  }
+  .desert-img-right {
     width: 70%;
   }
   .desert-define {
@@ -178,12 +181,19 @@
 }
 
 @media screen and (max-width: 650px) {
-  .desert-img {
+  .desert-img-left {
+    width: 75%;
+  }
+  .desert-img-right {
     width: 75%;
   }
 }
+
 @media screen and (max-width: 550px) {
-  .desert-img {
+  .desert-img-left {
+    width: 83%;
+  }
+  .desert-img-right {
     width: 83%;
   }
   .paragraph{
@@ -199,7 +209,10 @@
 }
 }
 @media screen and (max-width: 450px) {
-  .desert-img {
+  .desert-img-left{
+    width: 90%;
+  }
+  .desert-img-right{
     width: 90%;
   }
   .layer h2{
@@ -209,13 +222,19 @@
 /* ---------for desert columns------- */
 /*1- for Image */
 @media screen and (max-width: 1050px) {
-  .desert-img img {
+  .desert-img-left img {
+    width: 95%;
+  }
+  .desert-img-right img {
     width: 95%;
   }
 }
 
 @media screen and (max-width: 1050px) {
-  .desert-img img {
+  .desert-img-left img {
+    width: 100%;
+  }
+  .desert-img-right img {
     width: 100%;
   }
 }
